@@ -1,0 +1,43 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  background-color: #333333;
+  color: white;
+  font-size: 20px;
+  font-family: Monospace;
+  overflow: auto;
+  width: 100%;
+}
+
+@media screen and (max-width: 876px) {
+  #container {
+    margin: 0px;
+    padding: 5px;
+  }
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 25px 30px;
+}
+
+#headerbutton {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-left: 40px;
+}
+
+.botaoLink {
+  color: white;
+  text-decoration: none;
+}
+
+.botaoLink:hover {
+  color: darkgray;
+  transition: 0.2s;
+}
